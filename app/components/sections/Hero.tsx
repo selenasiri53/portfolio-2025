@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowDown, ArrowRight } from 'lucide-react'
 import React from 'react'
 import Image from 'next/image'
 import { AnimatedHeadline } from '../AnimatedHeadline'
@@ -14,9 +14,9 @@ const Hero = () => {
 
       {/* Button positioned in dent */}
       <div className="absolute bottom-4 left-4 z-20">
-          <button className="z-20 rounded-full gap-2 bg-rose-100 p-3 px-4 text-gray-500 hover:text-red-500 tracking-wide font-thin text-md shadow-2xl hover:bg-rose-100 transition-all items-center">
+          <button className="z-20 rounded-full gap-4 bg-rose-100 p-3 px-4 text-gray-500 hover:text-red-500 tracking-wide font-thin text-md shadow-2xl hover:bg-rose-100 transition-all items-center">
             Projects 
-            <ArrowRight className="inline" size={20} />
+            <ArrowDown className="inline" size={20} />
           </button>
       </div>
 
