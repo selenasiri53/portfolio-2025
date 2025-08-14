@@ -34,7 +34,7 @@ export default function CustomCursor() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 w-8 h-8 rounded-full bg-pink-800 mix-blend-difference pointer-events-none z-[9999]"
+      className="fixed top-0 left-0 w-8 h-8 rounded-full bg-emerald-900 mix-blend-difference pointer-events-none z-[9999]"
       style={{ translateX: x, translateY: y }}
       animate={{ scale: hovered ? 1.4 : 1 }} // subtle enlargement
       transition={{ type: "spring", stiffness: 300, damping: 20 }}

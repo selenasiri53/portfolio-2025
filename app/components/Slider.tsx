@@ -35,7 +35,7 @@ const languages = [
 
 export const LanguageSlider = () => {
   return (
-    <div className="overflow-hidden w-full py-8 bg-gray-100">
+    <div className="overflow-hidden w-full py-8 bg-black">
       <motion.div
         className="flex gap-16 w-max"
         animate={{ x: ["0%", "-50%"] }}
