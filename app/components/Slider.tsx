@@ -7,14 +7,14 @@ import {
   SiRedux,
   SiJavascript,
   SiTypescript,
-//   SiVueDotJs,
   SiKubernetes,
   SiDocker,
   SiGraphql,
   SiPrisma,
   SiPostgresql,
   SiDbeaver,
-//   SiAmazonaws,
+  SiPython,
+  SiDjango,
 } from "react-icons/si";
 
 const languages = [
@@ -23,14 +23,14 @@ const languages = [
   { name: "Redux", icon: <SiRedux /> },
   { name: "JavaScript", icon: <SiJavascript /> },
   { name: "TypeScript", icon: <SiTypescript /> },
-//   { name: "Vue", icon: <SiVueDotJs /> },
   { name: "Kubernetes", icon: <SiKubernetes /> },
   { name: "Docker", icon: <SiDocker /> },
   { name: "GraphQL", icon: <SiGraphql /> },
   { name: "Prisma", icon: <SiPrisma /> },
   { name: "PostgreSQL", icon: <SiPostgresql /> },
   { name: "DBeaver", icon: <SiDbeaver /> },
-//   { name: "AWS", icon: <SiAmazonaws /> },
+  { name: "Python", icon: <SiPython /> },
+  { name: "Django", icon: <SiDjango /> },
 ];
 
 export const LanguageSlider = () => {
