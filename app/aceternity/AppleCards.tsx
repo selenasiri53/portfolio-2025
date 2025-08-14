@@ -76,13 +76,14 @@ const data = [
     content: <DummyContent />,
     link: "https://www.theclonardbar.com"
   },
-
-  // {
-  //   category: "Product",
-  //   title: "Maps for your iPhone 15 Pro Max.",
-  //   src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //   content: <DummyContent />,
-  // },
+// https://disney-clone-selena-siris-projects.vercel.app
+{
+  category: "Next.js, TypeScript, Tailwind",
+  title: "Modern Landing Page for The Clonard Bar, BK",
+  src: "/projectThumbnails/disney.png",
+  content: <DummyContent />,
+  link: "https://disney-clone-selena-siris-projects.vercel.app"
+},
   // {
   //   category: "iOS",
   //   title: "Photography just got better.",

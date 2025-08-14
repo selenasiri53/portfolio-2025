@@ -10,22 +10,23 @@ export default function ContactPage() {
         Contact
       </h2>
 
-      <div className="flex flex-col space-y-4 text-lg md:text-xl text-neutral-800 hover:text-neutral-600">
-        <p>Email: 
+      <div className="flex flex-col space-y-6 text-lg md:text-xl text-neutral-800 items-center text-center">
+        <div>
+          <span>Email: </span>
           <a
             href="mailto:selenasiri53@gmail.com"
-            className="ml-2 underline hover:text-amber-300 transition-colors"
+            className="ml-2 underline hover:text-blue-400 transition-colors"
           >
             selenasiri53@gmail.com
           </a>
-        </p>
+        </div>
 
-        <div className="flex space-x-6 mt-2">
+        <div className="flex space-x-6">
           <a
             href="https://www.linkedin.com/in/selena-siri-0a5532121/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-amber-300 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             <FaLinkedin size={28} />
           </a>
@@ -33,7 +34,7 @@ export default function ContactPage() {
             href="https://www.github.com/selenasiri53"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-amber-300 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             <FaGithub size={28} />
           </a>
@@ -41,7 +42,7 @@ export default function ContactPage() {
             href="https://www.selenasiri.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-amber-300 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             <FaGlobe size={28} />
           </a>
