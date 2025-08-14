@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight } from 'lucide-react'
+import { ArrowDown, ArrowRight, Download } from 'lucide-react'
 import React from 'react'
 import Image from 'next/image'
 import { AnimatedHeadline } from '../AnimatedHeadline'
@@ -14,10 +14,14 @@ const Hero = () => {
 
       {/* Button positioned in dent */}
       <div className="absolute bottom-4 left-4 z-20">
-          <button className="z-20 rounded-full gap-4 bg-rose-100 p-3 px-4 text-gray-500 hover:text-red-500 tracking-wide font-thin text-md shadow-2xl hover:bg-rose-100 transition-all items-center">
-            Projects 
-            <ArrowDown className="inline" size={20} />
-          </button>
+        <a
+          href="/Selena_Siri_Software_Engineer_Resume_2025.pdf"  // replace with the path to your resume file
+          download
+          className="z-20 rounded-full gap-1 items-center bg-rose-100 p-3 px-4 text-gray-500 hover:text-red-500 tracking-wide font-thin text-md shadow-2xl hover:bg-rose-100 transition-all flex"
+        >
+          Resume 
+          <Download className="inline" size={20} />
+        </a>
       </div>
 
       {/* Grid content */}
