@@ -6,29 +6,14 @@ import Contact from "./components/sections/Contact";
 import { TimelineDemo } from "./components/sections/Story";
 import { LanguageSlider } from "./components/Slider";
 import useCustomCursor from "./useCustomCursor";
+import CustomCursor from "./useCustomCursor";
 
 export default function Home() {
   useCustomCursor();
 
   return (
     <div>
-      <style>
-        {`
-          /* Apply custom cursor globally and for all states */
-          html, body, *, button, a, input,
-          .disabled, a:disabled, input:disabled {
-            cursor: url('/pinkcircle.svg'), auto;
-          }
-
-          button:hover, a:hover, input:hover, .hover:hover {
-            cursor: url('/whitecircle.svg'), auto;
-          }
-
-          body.red-cursor * {
-            cursor: url('/redcircle.svg'), auto;
-          }
-        `}
-      </style>
+       <CustomCursor />
       <div id="Home">
         <Hero />
         <LanguageSlider />

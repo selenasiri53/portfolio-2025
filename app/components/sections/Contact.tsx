@@ -15,7 +15,7 @@ export default function ContactPage() {
           <span>Email: </span>
           <a
             href="mailto:selenasiri53@gmail.com"
-            className="ml-2 underline hover:text-blue-400 transition-colors"
+            className="ml-2 underline hover:text-blue-300 transition-colors"
           >
             selenasiri53@gmail.com
           </a>
@@ -26,7 +26,7 @@ export default function ContactPage() {
             href="https://www.linkedin.com/in/selena-siri-0a5532121/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-300 transition-colors"
           >
             <FaLinkedin size={28} />
           </a>
@@ -34,7 +34,7 @@ export default function ContactPage() {
             href="https://www.github.com/selenasiri53"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-300 transition-colors"
           >
             <FaGithub size={28} />
           </a>
@@ -42,7 +42,7 @@ export default function ContactPage() {
             href="https://www.selenasiri.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-300 transition-colors"
           >
             <FaGlobe size={28} />
           </a>
