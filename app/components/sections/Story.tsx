@@ -5,65 +5,34 @@ import Link from "next/link";
 export function TimelineDemo() {
   const data = [
     {
-      title: "Spring of '19",
-      content: (
-        <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Graduated Rutgers University with an art degree. Despite scoliosis and the looming possibility of surgery, I was always finding new creative outlets and dreaming up ways to turn passions into business. In this year I created my first <Link href="https://www.selenasiri.com/studio-art"><span className="text-rose-400 underline">artist's website</span></Link> for studio art.
-          </p>
-        </div>
-      ),
-    },
-    {
       title: "2019",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          After a 10+ year battle with scoliosis, I had the privilege of receiving treatment and undergoing spinal fusion surgery. During recovery, I discovered coding and gradually fell in love with it.
+          Graduated Rutgers University. I had the privilege of undergoing spinal fusion surgery. During recovery, I discovered coding and gradually fell in love with it.
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          I enrolled in an HTML, CSS and JavaScript course at Middlesex County college and continued completing online certifications in JavaScript, React/Redux, React Hooks, and Three.js. I also familiarized myself with MERN stack and PostgreSQL for full stack development. 
+          I enrolled in an HTML, CSS and JavaScript course at Middlesex County college and continued completing online certifications in JavaScript, React/Redux, React Hooks, and Three.js. I also familiarized myself with architecting data models, and end-to-end development for full stack development. 
           </p>
         </div>
       ),
     },
     {
-      title: "2020",
-      content: (
-        <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Coding gave me the impression that anything that could be dreamed could be built. I continued on the self-teaching route to build dashboard management systems, backend REST API calls and elaborative frontend designs. I later joined NY Singing Teachers Association as a web engineer managing their WordPress website.
-          </p>
-        </div>
-      ),
-    },
-    {
-        title: "2021",
+        title: "2020 - 2021",
         content: (
           <div>
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Started a new role at Digital Assets as a Backend Python Engineer. Built blockchain applications using Python and Django. My first deep dive into backend engineering.
+            I joined the NY Singing Teachers Association as a web engineer managing their WordPress website. Following this, I led real-time blockchain applications using Python and Django at Digital Assets. As a result, it supported trust within the company by empowering banks with an easy to navigate, analytics system for their clients. 
             </p>
           </div>
         ),
       },
-    {
-        title: "2022",
-        content: (
-          <div>
-            <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Took a break to reconnect with myself, my faith, and the people I love. While it doesn't look like much on paper, this was a very important time in my life where I got back in touch with my values as a person, designer and developer.
-            </p>
-          </div>
-        ),
-      },
-    //   Worked with AI and data cleaning tools using Python and Pandas AI.
     {
         title: "2023",
         content: (
           <div>
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Led a new AI business capability at Ernst & Young to automate time-consuming manual labor. Saved the information team time, money and resources, allowing talented tenured employees to focus their attention on less tedious work that brought them greater joy. Worked with new data cleaning tools using Python, Django and Pandas AI.
+            Led a new AI business capability at Ernst & Young to automate time-consuming manual labor. Allowed team talent to focus on more impactful, purpose-filled work. Delivered new data cleaning tools using Python, Django and Pandas AI.
             </p>
           </div>
         ),
@@ -73,7 +42,7 @@ export function TimelineDemo() {
         content: (
           <div>
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Reignited my passion for art — engraving, painting, and sketching. Worked live engraving events for luxury perfume brands. Joined Cookie Finance as a full-time engineer and moved to Syracuse. Found opportunities to work closer with UX and Figma designs to deliver modern, animated frontend sites. 
+            Upskilled my frontend abilities using Three.js, Framer Motion, and Spline for RWD. Joined Cookie Finance as a full-time engineer and moved to Syracuse. Found opportunities to work closer with UX and Figma designs to deliver modern, animated frontend sites. 
             </p>
           </div>
         ),
@@ -83,7 +52,7 @@ export function TimelineDemo() {
         content: (
           <div>
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Moved back to NYC to join Thurgood Industries as a founding engineer and UX designer. Continued working across the stack in end-to-end development, using Next.js, React, Framer motion, Python, Django, PostgreSQL and Docker with Kubernetes.
+            Moved back to NYC to join Thurgood Industries as a founding engineer and UX designer. Continued end-to-end development across the stack, using Next.js, React, Framer motion, Python, Django, PostgreSQL and Docker with Kubernetes.
             </p>
           </div>
         ),
