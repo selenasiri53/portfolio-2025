@@ -44,7 +44,7 @@ export const LanguageSlider = () => {
         {[...languages, ...languages].map((lang, idx) => (
           <motion.div
             key={idx}
-            className="flex flex-col items-center text-gray-400 cursor-pointer transition-colors duration-300 hover:text-inherit hover:filter-none filter grayscale"
+            className="flex flex-col items-center text-gray-400 cursor-pointer transition-colors duration-300 hover:text-blue-300 hover:filter-none filter grayscale"
           >
             <div className="text-4xl mb-2">{lang.icon}</div>
             <span className="text-sm font-semibold">{lang.name}</span>
