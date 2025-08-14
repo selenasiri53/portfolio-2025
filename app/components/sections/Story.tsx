@@ -9,7 +9,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Graduated Rutgers University with an art degree. Despite scoliosis and the looming possibility of surgery, I was always finding new creative outlets and dreaming up ways to turn passions into business. Created my first <Link href="https://www.selenasiri.com/studio-art"><span className="text-rose-400 underline">artist's website</span></Link> for studio art.
+          Graduated Rutgers University with an art degree. Despite scoliosis and the looming possibility of surgery, I was always finding new creative outlets and dreaming up ways to turn passions into business. In this year I created my first <Link href="https://www.selenasiri.com/studio-art"><span className="text-rose-400 underline">artist's website</span></Link> for studio art.
           </p>
         </div>
       ),
@@ -19,10 +19,10 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          After a 10+ year battle with scoliosis, I had the privilege of receiving treatment and undergoing spinal fusion surgery.
+          After a 10+ year battle with scoliosis, I had the privilege of receiving treatment and undergoing spinal fusion surgery. During recovery, I discovered coding and gradually fell in love with it.
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          During recovery, I discovered coding and slowly fell in love with it.
+          I enrolled in an HTML, CSS and JavaScript course at Middlesex County college and continued completing online certifications in JavaScript, React/Redux, React Hooks, and Three.js. I also familiarized myself with MERN stack and PostgreSQL for full stack development. 
           </p>
         </div>
       ),
@@ -32,7 +32,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          Joined NY Singing Teachers Association as a web engineer managing their WordPress site.
+          Coding gave me the impression that anything that could be dreamed could be built. I continued on the self-teaching route to build dashboard management systems, backend REST API calls and elaborative frontend designs. I later joined NY Singing Teachers Association as a web engineer managing their WordPress website.
           </p>
         </div>
       ),
@@ -42,7 +42,7 @@ export function TimelineDemo() {
         content: (
           <div>
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Started a new role at Digital Assets, as a Junior Backend Engineer. Built blockchain applications using Python and Django. My first deep dive into backend engineering.
+            Started a new role at Digital Assets as a Backend Python Engineer. Built blockchain applications using Python and Django. My first deep dive into backend engineering.
             </p>
           </div>
         ),
@@ -52,7 +52,7 @@ export function TimelineDemo() {
         content: (
           <div>
             <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Took a break to reconnect with myself, my faith, and the people I love.
+            Took a break to reconnect with myself, my faith, and the people I love. While it doesn't look like much on paper, this was a very important time in my life where I got back in touch with my values as a person, designer and developer.
             </p>
           </div>
         ),
