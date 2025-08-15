@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaGlobe } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="h-auto py-16 flex flex-col justify-center items-center max-w-7xl mx-auto px-4 bg-indigo-100 rounded-4xl my-20">
+    <div className="mx-4 md:mx-auto lg:mx-32 md:max-w-7xl h-auto py-16 flex flex-col justify-center items-center max-w-7xl px-4 bg-indigo-50 rounded-4xl my-20">
       <h2 className="text-3xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans mb-8">
         Contact
       </h2>

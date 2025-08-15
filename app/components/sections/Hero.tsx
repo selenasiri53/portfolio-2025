@@ -7,7 +7,7 @@ import headshot from '../../../public/selena_headshot.jpg'
 const Hero = () => {
   return (
     <div className="my-8 lg:my-20">
-      <div className="m-2 relative lg:h-[74vh] my-4 rounded-4xl bg-indigo-50 overflow-hidden lg:mx-32">
+      <div className="m-4 relative lg:h-[74vh] my-4 rounded-4xl bg-indigo-50 overflow-hidden lg:mx-32">
       
       {/* Clip path dent */}
       <div className="absolute bottom-0 left-0 h-20 w-36 bg-white z-10 rounded-tl-4xl rounded-br-4xl" />
