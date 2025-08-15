@@ -29,7 +29,6 @@ const Navbar = () => {
               >
                 {link.label}
 
-                {/* Fancy underline effect */}
                 <span
                   className={clsx(
                     "absolute left-0 -bottom-1 w-full h-[6px] bg-[url('/underline.svg')] bg-no-repeat bg-contain bg-left transition-opacity duration-300",
