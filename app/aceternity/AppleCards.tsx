@@ -52,12 +52,10 @@ const DummyContent = () => {
   );
 };
 
-// Next.js, TypeScript, Framer Motion
-// Thurgood Enterprise App for Workers
 const data = [
   {
-    category: "",
-    title: "",
+    category: "Next.js, TypeScript, Aceternity UI",
+    title: "Thurgood Industries",
     src: "/projectThumbnails/thurgood-mobile.png",
     content: <DummyContent />,
     link: "https://thurgood.work",
@@ -76,7 +74,6 @@ const data = [
     content: <DummyContent />,
     link: "https://www.theclonardbar.com"
   },
-// https://disney-clone-selena-siris-projects.vercel.app
 {
   category: "Next.js, TypeScript, Tailwind",
   title: "A Recreation of Disney +",
@@ -91,10 +88,4 @@ const data = [
   content: <DummyContent />,
   link: "https://next-s-dashboard-selena-siris-projects.vercel.app/dashboard"
 },
-  // {
-  //   category: "Hiring",
-  //   title: "Hiring for a Staff Software Engineer",
-  //   src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //   content: <DummyContent />,
-  // },
 ];
