@@ -272,20 +272,12 @@ export const Card = ({
 };
 
 
-export const BlurImage = ({
-  height,
-  width,
-  src,
-  className,
-  alt,
-  ...rest
-}: ImageProps) => {
+export const BlurImage = ({ src, className, alt, ...rest }: ImageProps) => {
   return (
     <Image
       src={src as string}
-      alt={alt ? alt : "Background of a beautiful view"}
-      width={width}
-      height={height}
+      alt={alt ?? "Background of a beautiful view"}
+      fill
       className={className}
       loading="lazy"
       decoding="async"
@@ -293,3 +285,4 @@ export const BlurImage = ({
     />
   );
 };
+
