@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-import { Carousel, Card } from "./ui/apple-cards-carousel";
-
+import { Carousel, Card, CardItem } from "./ui/apple-cards-carousel";
 import Image from "next/image";
 
 export function AppleCardsCarouselDemo() {
@@ -23,36 +22,31 @@ export function AppleCardsCarouselDemo() {
 const DummyContent = () => {
   return (
     <>
-      {[...new Array(3).fill(1)].map((_, index) => {
-        return (
-          <div
-            key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
-          >
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                The first rule of Apple club is that you boast about Apple club.
-              </span>{" "}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
-            </p>
-            <Image
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
-          </div>
-        );
-      })}
+      {[...Array(3)].map((_, index) => (
+        <div
+          key={"dummy-content" + index}
+          className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+        >
+          <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <span className="font-bold text-neutral-700 dark:text-neutral-200">
+              The first rule of Apple club is that you boast about Apple club.
+            </span>{" "}
+            Keep a journal, jot down a grocery list, and take amazing notes.
+          </p>
+          <Image
+            src="https://assets.aceternity.com/macbook.png"
+            alt="Macbook mockup from Aceternity UI"
+            height={500}
+            width={500}
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+          />
+        </div>
+      ))}
     </>
   );
 };
 
-const data = [
+const data: CardItem[] = [
   {
     category: "Next.js, TypeScript, Aceternity UI",
     title: "Thurgood Industries",
@@ -72,20 +66,20 @@ const data = [
     title: "Modern Landing Page for The Clonard Bar, BK",
     src: "/projectThumbnails/clonard.png",
     content: <DummyContent />,
-    link: "https://www.theclonardbar.com"
+    link: "https://www.theclonardbar.com",
   },
-{
-  category: "Next.js, TypeScript, Tailwind",
-  title: "A Recreation of Disney +",
-  src: "/projectThumbnails/disney.png",
-  content: <DummyContent />,
-  link: "https://disney-clone-selena-siris-projects.vercel.app"
-},
-{
-  category: "Next.js, TypeScript, Tailwind",
-  title: "Next.js Management & Analytics Dashboard",
-  src: "/projectThumbnails/dashboard.png",
-  content: <DummyContent />,
-  link: "https://next-s-dashboard-selena-siris-projects.vercel.app/dashboard"
-},
+  {
+    category: "Next.js, TypeScript, Tailwind",
+    title: "A Recreation of Disney+",
+    src: "/projectThumbnails/disney.png",
+    content: <DummyContent />,
+    link: "https://disney-clone-selena-siris-projects.vercel.app",
+  },
+  {
+    category: "Next.js, TypeScript, Tailwind",
+    title: "Next.js Management & Analytics Dashboard",
+    src: "/projectThumbnails/dashboard.png",
+    content: <DummyContent />,
+    link: "https://next-s-dashboard-selena-siris-projects.vercel.app/dashboard",
+  },
 ];
