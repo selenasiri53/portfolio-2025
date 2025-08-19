@@ -31,7 +31,7 @@ const Navbar = () => {
 
                 <span
                   className={clsx(
-                    "absolute left-0 -bottom-1 w-full h-[6px] bg-[url('/underline.svg')] bg-no-repeat bg-contain bg-left transition-opacity duration-300",
+                    "absolute left-0 -bottom-1 w-full h-[6px] bg-no-repeat bg-contain bg-left transition-opacity duration-300",
                     isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"
                   )}
                 />
