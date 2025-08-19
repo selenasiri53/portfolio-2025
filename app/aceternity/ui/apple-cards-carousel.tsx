@@ -27,7 +27,6 @@ export type CardItem = {
   src: string;
   title: string;
   category: string;
-  content: React.ReactNode;
   link?: string;
 };
 
@@ -221,7 +220,6 @@ export const Card = ({
               <motion.p className="mt-4 text-2xl font-semibold text-neutral-700 md:text-5xl dark:text-white">
                 {card.title}
               </motion.p>
-              <div className="py-10">{card.content}</div>
             </motion.div>
           </div>
         )}
