@@ -11,7 +11,7 @@ export function AppleCardsCarouselDemo() {
   ));
 
   return (
-    <div className="w-full h-full py-20">
+    <div className="w-full h-full py-20 bg-black">
       <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-rose-300 dark:text-neutral-200 font-sans">
         Projects
       </h2>
@@ -52,12 +52,10 @@ const DummyContent = () => {
   );
 };
 
-// Next.js, TypeScript, Framer Motion
-// Thurgood Enterprise App for Workers
 const data = [
   {
-    category: "",
-    title: "",
+    category: "Next.js, TypeScript, Aceternity UI",
+    title: "Thurgood Industries",
     src: "/projectThumbnails/thurgood-mobile.png",
     content: <DummyContent />,
     link: "https://thurgood.work",
@@ -76,24 +74,18 @@ const data = [
     content: <DummyContent />,
     link: "https://www.theclonardbar.com"
   },
-// https://disney-clone-selena-siris-projects.vercel.app
 {
   category: "Next.js, TypeScript, Tailwind",
-  title: "Modern Landing Page for The Clonard Bar, BK",
+  title: "A Recreation of Disney +",
   src: "/projectThumbnails/disney.png",
   content: <DummyContent />,
   link: "https://disney-clone-selena-siris-projects.vercel.app"
 },
-  // {
-  //   category: "iOS",
-  //   title: "Photography just got better.",
-  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //   content: <DummyContent />,
-  // },
-  // {
-  //   category: "Hiring",
-  //   title: "Hiring for a Staff Software Engineer",
-  //   src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //   content: <DummyContent />,
-  // },
+{
+  category: "Next.js, TypeScript, Tailwind",
+  title: "Next.js Management & Analytics Dashboard",
+  src: "/projectThumbnails/dashboard.png",
+  content: <DummyContent />,
+  link: "https://next-s-dashboard-selena-siris-projects.vercel.app/dashboard"
+},
 ];

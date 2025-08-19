@@ -35,7 +35,7 @@ const languages = [
 
 export const LanguageSlider = () => {
   return (
-    <div className="overflow-hidden w-full py-8 bg-gray-100">
+    <div className="overflow-hidden w-full py-8 bg-black">
       <motion.div
         className="flex gap-16 w-max"
         animate={{ x: ["0%", "-50%"] }}
@@ -44,7 +44,7 @@ export const LanguageSlider = () => {
         {[...languages, ...languages].map((lang, idx) => (
           <motion.div
             key={idx}
-            className="flex flex-col items-center text-gray-400 cursor-pointer transition-colors duration-300 hover:text-inherit hover:filter-none filter grayscale"
+            className="flex flex-col items-center text-gray-400 cursor-pointer transition-colors duration-300 hover:text-blue-300 hover:filter-none filter grayscale"
           >
             <div className="text-4xl mb-2">{lang.icon}</div>
             <span className="text-sm font-semibold">{lang.name}</span>

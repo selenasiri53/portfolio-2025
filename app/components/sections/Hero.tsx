@@ -7,17 +7,17 @@ import headshot from '../../../public/selena_headshot.jpg'
 const Hero = () => {
   return (
     <div className="my-8 lg:my-20">
-      <div className="m-2 relative lg:h-[74vh] my-4 rounded-4xl bg-indigo-50 overflow-hidden lg:mx-32">
+      <div className="m-4 relative lg:h-[74vh] my-4 rounded-4xl bg-indigo-50 overflow-hidden lg:mx-32">
       
       {/* Clip path dent */}
       <div className="absolute bottom-0 left-0 h-20 w-36 bg-white z-10 rounded-tl-4xl rounded-br-4xl" />
 
       {/* Button positioned in dent */}
-      <div className="absolute bottom-4 left-4 z-20">
+      <div className="absolute bottom-4 left-4 z-20 hover:scale-105">
         <a
           href="/Selena_Siri_Software_Engineer_Resume_2025.pdf"  // replace with the path to your resume file
           download
-          className="z-20 rounded-full gap-1 items-center bg-rose-100 p-3 px-4 text-gray-500 hover:text-red-500 tracking-wide font-thin text-md shadow-2xl hover:bg-rose-100 transition-all flex"
+          className="z-20 rounded-full gap-1 items-center bg-rose-100 hover:bg-rose-200 p-3 px-4 text-gray-500 hover:text-red-500 tracking-wide font-thin text-md shadow-2xl hover:bg-rose-100 transition-all flex"
         >
           Resume 
           <Download className="inline" size={20} />
