@@ -17,9 +17,9 @@ export default function ProjectCardCarousel({ items }: { items: CardItem[] }) {
   return (
     <section className="w-full py-10 md:py-14">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
-        <header className="mb-6 md:mb-10 flex items-center justify-between">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">
-            My Work
+        <header className="mb-6 md:mb-16 flex items-center justify-between">
+          <h2 className="text-2xl md:text-5xl font-semibold tracking-tight text-neutral-600">
+            Projects
           </h2>
         </header>
 

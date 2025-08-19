@@ -38,9 +38,11 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          My Story
-        </h2>
+      <header className="mb-6 md:mb-16 flex items-center justify-between">
+          <h2 className="text-2xl md:text-5xl font-semibold tracking-tight text-neutral-600">
+            My Story
+          </h2>
+        </header>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
         I became a software engineer through an unconventional path—recovering from spinal fusion surgery during the COVID-19 pandemic led me to coding as a way to stay resourceful and create impact. I specialize in accessible software, multilingual features, and intuitive data visualizations for businesses of all sizes, building solutions that are easy to use and inclusive for everyone.
 Along the way, there have been key milestones that shaped my journey from a studio artist to a self-taught developer. Here’s a look at some of the moments that have defined my path:
