@@ -5,60 +5,39 @@ import { motion } from 'framer-motion';
 
 const timelineData = [
   {
-    year: '2015',
-    title: 'Started at Rutgers University',
-    description:
-      'Studied Vocal Performance with dreams of becoming an opera singer. Despite scoliosis and the looming possibility of surgery, I was always finding new creative outlets and dreaming up ways to turn passions into business.',
-    icon: '🎶',
-  },
-  {
     year: '2019',
-    title: 'Graduated & Underwent Surgery',
+    title: 'Graduated Rutgers University & Learned to Code',
     description:
-      'Graduated from Rutgers and had spinal fusion surgery. During recovery, I discovered coding and slowly fell in love with it.',
+      'I started my software development journey after graduating Rutgers University in 2019, after being inspired by several coders in my family. With an arts background I was looking for opportunities to be creative in the digital space while helping companies succeed.',
     icon: '🎓',
   },
   {
-    year: '2020',
-    title: 'First Tech Role',
+    year: '2020 - 2022',
+    title: 'Freelancing to My First Tech Role',
     description:
-      'Joined NY Singing Teachers Association as a web engineer managing their WordPress site.',
-    icon: '💻',
-  },
-  {
-    year: '2021',
-    title: 'Joined Digital Assets',
-    description:
-      'Built blockchain applications using Python and Django. My first deep dive into backend engineering.',
-    icon: '🔗',
-  },
-  {
-    year: '2022',
-    title: 'Year of Reflection',
-    description:
-      'Took a break to reconnect with myself, my faith, and the people I love.',
-    icon: '🧘‍♀️',
+      'I started to build websites for local shops and businesses in my neighborhood, and later found the opportunity to work as a backend Python engineer at Digital Assets. From there I have had the chance to contribute to real-time stock applications, and support new features in the FinTech spaces.',
+    icon: '👩🏻‍💻',
   },
   {
     year: '2023',
-    title: 'EY Contract Role',
+    title: 'Machine Learning Integration at Ernst & Young',
     description:
-      'Worked with AI and data cleaning tools using Python and Pandas AI.',
+      'From there, I worked with AI and data-cleaning tools at EY, leveraging Python, Pandas AI, and machine learning technologies to streamline workflows. I implemented automated processes that formatted 3,000 employee data logs in under 1.8 seconds—36,000 logs annually—dramatically reducing manual labor and improving data accuracy.',
     icon: '🤖',
   },
   {
     year: '2024',
-    title: 'Art + Engineering',
+    title: 'Cookie Finance & Moving to Syracuse, NY',
     description:
-      'Reignited my passion for art — engraving, painting, and sketching. Worked live engraving events for luxury brands. Joined Cookie Finance as a full-time engineer and moved to Syracuse.',
-    icon: '🎨',
+      'From there, I had the chance to build dashboards for Cookie Finance, creating both user-facing and admin tools for their accounting software. I focused on streamlining workflows, improving data visibility, and turning complex financial information into intuitive, actionable insights.',
+    icon: '🍪',
   },
   {
     year: '2025',
     title: 'New Chapter in NYC',
     description:
-      'Became a dog mom and moved back to NYC to join Thurgood Industries as a founding engineer and UX designer.',
-    icon: '🐾',
+      'Moved back to NYC to join Thurgood Industries as a founding engineer and UX designer. Developed my first enterprise landing page within my first 3 weeks to establish the companys brand identity and advocate for careers in the skilled trades for underserved communities. Encouraged a Spanish language feature on the website, to support the demographic and create greater accessibility amongst students and employers in the industry.',
+    icon: '🏗️',
   },
 ];
 

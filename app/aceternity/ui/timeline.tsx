@@ -44,9 +44,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           </h2>
         </header>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-        I became a software engineer through an unconventional path—recovering from spinal fusion surgery during the COVID-19 pandemic led me to coding as a way to stay resourceful and create impact. I specialize in accessible software, multilingual features, and intuitive data visualizations for businesses of all sizes, building solutions that are easy to use and inclusive for everyone.
-Along the way, there have been key milestones that shaped my journey from a studio artist to a self-taught developer. Here’s a look at some of the moments that have defined my path:
-        </p>
+        I am grateful for the work I do, and have seen clients and businesses thrive from having better software tools. I've had the opportunity to work for various accounting companies including Ernst & Young and Cookie Finance where I managed integrations, backend API calls, and implementing custom frontend designs, to modernize their brand identity. <br /><br />My main stack includes React, TypeScript, JavaScript, GraphQL, Prisma, Python, Django, PostgreSQL, and AWS, and I’m continuing to find new projects to deepen my understanding of these languages. I believe a digital presence can change the trajectory of a company's success and look forward to supporting businesses of all sizes to improve workflows and showcase what they do best. </p>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
@@ -59,7 +57,7 @@ Along the way, there have been key milestones that shaped my journey from a stud
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-2xl font-bold text-neutral-500 dark:text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
