@@ -22,18 +22,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Selena Siri Portfolio",
-  description:
-    "I believe a digital presence can change the trajectory of a company's success and look forward to supporting businesses to showcase what they do best.",
+  title: "Selena Siri | Web Developer & Creative Technologist",
+  description: "I help businesses elevate their digital presence through clean, creative, and functional web experiences.",
   openGraph: {
-    title: "Selena Siri Portfolio",
-    description:
-      "I believe a digital presence can change the trajectory of a company's success and look forward to supporting businesses to showcase what they do best.",
+    title: "Selena Siri | Web Developer & Creative Technologist",
+    description: "I help businesses elevate their digital presence through clean, creative, and functional web experiences.",
     url: "https://portfolio-2025-awss.vercel.app",
     siteName: "Selena Siri Portfolio",
     images: [
       {
-        url: "https://portfolio-2025-awss.vercel.app/appPhotos/portfolio-cover.png", // <-- your thumbnail here
+        url: "https://portfolio-2025-awss.vercel.app/appPhotos/portfolio-cover.png",
         width: 1200,
         height: 630,
         alt: "Selena Siri Portfolio",
@@ -44,12 +42,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Selena Siri Portfolio",
-    description:
-      "I believe a digital presence can change the trajectory of a company's success and look forward to supporting businesses to showcase what they do best.",
+    title: "Selena Siri | Web Developer & Creative Technologist",
+    description: "I help businesses elevate their digital presence through clean, creative, and functional web experiences.",
     images: "https://portfolio-2025-awss.vercel.app/appPhotos/portfolio-cover.png",
   },
 };
+
 
 export default function RootLayout({
   children,
