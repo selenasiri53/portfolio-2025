@@ -48,7 +48,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Joined Thurgood Industries as a founding engineer and UX designer. Developed my first enterprise landing page within 3 weeks, advocating for careers in skilled trades for underserved communities and implementing a Spanish-language feature for accessibility.
+            Joined Thurgood Industries as a founding engineer and UX designer. Developed their enterprise landing page within 3 weeks, advocating for careers in skilled trades for underserved communities and implementing a Spanish-language feature for accessibility.
           </p>
         </div>
       ),
